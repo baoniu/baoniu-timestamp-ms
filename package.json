@@ -1,22 +1,24 @@
 {
   "name": "baoniu-timestamp-ms",
-  "version": "0.2.5",
-  "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "5.9.1"
-  },
+  "version": "1.0.0",
+  "description": "A barebones Node.js app using [Express 4](http://expressjs.com/).",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "dependencies": {
-    "ejs": "2.4.1",
-    "express": "4.13.3"
+    "ejs": "^2.4.1",
+    "express": "^4.13.3"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "license": "MIT"
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baoniu/baoniu-timestamp-ms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baoniu/baoniu-timestamp-ms/issues"
+  },
+  "homepage": "https://github.com/baoniu/baoniu-timestamp-ms#readme"
 }
